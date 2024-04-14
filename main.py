@@ -21,6 +21,5 @@ def main():
         print(f"The {k} character was found {char_dictionnary[k]} times")
       print("---End report ---")
 
-    print(char_counter())
     report()
 main()
