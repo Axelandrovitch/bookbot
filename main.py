@@ -10,7 +10,7 @@ def main():
         if char.isalpha():
           if char in char_appearances_dict:
             char_appearances_dict[char] +=1
-          elif char != " " and char != "\n":
+          else:
             char_appearances_dict[char] = 1
 
       for k in char_appearances_dict:
